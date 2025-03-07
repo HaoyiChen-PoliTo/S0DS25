@@ -1,3 +1,11 @@
+# This Tcl script prints a Sierpinski Triangle to the Tclsh terminal 
+# using the '*' character, where the edge length is defined by the variable `edge_len`.
+
+# The triangle's outer equilateral edges contain `edge_len` stars.
+# 
+# Advanced solution requirement:
+# - Solve the problem using only **two loop statements**.
+# - Utilize Tcl functions: `lset`, `lrepeat`, `lappend`, and `join` to construct the pattern efficiently.
 set edge_len 32
 
 for {set i 0} {$i < $edge_len} {incr i} {

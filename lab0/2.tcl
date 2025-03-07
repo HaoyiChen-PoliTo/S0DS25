@@ -1,3 +1,15 @@
+# This TCL program determines whether the quadratic equation (ax^2 + bx + c = 0) 
+# has real solutions, and if so, prints the results on the screen.
+#
+# 1. Define three variables (a, b, and c) for the equation coefficients,
+#    and two variables (x1 and x2) to store the solutions.
+# 2. Set values for a, b, and c.
+# 3. Calculate the discriminant (delta) to determine the nature of the solutions.
+#    3.3.1. If delta is positive, use the sqrt function to compute the roots.
+#    3.3.2. Otherwise, display a message indicating no real solutions exist.
+
+
+
 set a 2
 set b 5
 set c 3
