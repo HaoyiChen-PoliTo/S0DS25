@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : aes_cipher_top
+Version: V-2023.12-SP1
+Date   : Tue Mar 25 16:33:17 2025
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    CORE65LPSVT (File: /export/home/stud/s337217/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db)
+
+Number of ports:                          388
+Number of nets:                          9213
+Number of cells:                         8954
+Number of combinational cells:           8424
+Number of sequential cells:               530
+Number of macros/black boxes:               0
+Number of buf/inv:                       1084
+Number of references:                     116
+
+Combinational area:              27585.479602
+Buf/Inv area:                     1709.759937
+Noncombinational area:            4479.800025
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 32065.279627
+Total area:                 undefined
+1

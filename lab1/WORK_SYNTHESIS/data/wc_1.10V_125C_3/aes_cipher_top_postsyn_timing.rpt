@@ -1,0 +1,62 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : aes_cipher_top
+Version: V-2023.12-SP1
+Date   : Tue Mar 25 17:42:50 2025
+****************************************
+
+Operating Conditions: wc_1.10V_125C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+  Startpoint: sa32_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: sa23_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  aes_cipher_top     area_12Kto18K         CORE65LPSVT
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.05       0.05
+  sa32_reg[1]/CP (HS65_LS_DFPQX4)          0.00       0.05 r
+  sa32_reg[1]/Q (HS65_LS_DFPQX4)           0.28       0.33 f
+  U9250/Z (HS65_LS_AND2X4)                 0.17       0.50 f
+  U8614/Z (HS65_LS_NAND3X5)                0.15       0.65 r
+  U8798/Z (HS65_LS_IVX9)                   0.18       0.83 f
+  U3708/Z (HS65_LS_NOR2X2)                 0.16       0.98 r
+  U2950/Z (HS65_LS_OAI222X2)               0.17       1.15 f
+  U2949/Z (HS65_LS_AOI212X2)               0.16       1.31 r
+  U2945/Z (HS65_LS_NOR4ABX2)               0.24       1.56 r
+  U9038/Z (HS65_LS_OA12X9)                 0.17       1.73 r
+  U2942/Z (HS65_LS_NAND4ABX3)              0.11       1.84 f
+  U2606/Z (HS65_LS_NOR4ABX2)               0.14       1.98 r
+  U2605/Z (HS65_LS_NAND4ABX3)              0.25       2.23 f
+  U10329/Z (HS65_LSS_XNOR2X3)              0.25       2.48 r
+  U8514/Z (HS65_LSS_XOR3X2)                0.30       2.79 r
+  U9647/Z (HS65_LS_OAI22X4)                0.09       2.88 f
+  sa23_reg[3]/D (HS65_LS_DFPQX4)           0.00       2.88 f
+  data arrival time                                   2.88
+
+  clock clk (rise edge)                    3.00       3.00
+  clock network delay (ideal)              0.05       3.05
+  clock uncertainty                       -0.05       3.00
+  sa23_reg[3]/CP (HS65_LS_DFPQX4)          0.00       3.00 r
+  library setup time                      -0.13       2.87
+  data required time                                  2.87
+  -----------------------------------------------------------
+  data required time                                  2.87
+  data arrival time                                  -2.88
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.01
+
+
+1

@@ -1,0 +1,62 @@
+Loading db file '/export/home/stud/s337217/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : aes_cipher_top
+Version: V-2023.12-SP1
+Date   : Tue Mar 25 16:33:19 2025
+****************************************
+
+
+Library(s) Used:
+
+    CORE65LPSVT (File: /export/home/stud/s337217/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db)
+
+
+Operating Conditions: nom_1.20V_25C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+aes_cipher_top         area_12Kto18K     CORE65LPSVT
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1mW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   4.9314 mW   (52%)
+  Net Switching Power  =   4.5316 mW   (48%)
+                         ---------
+Total Dynamic Power    =   9.4629 mW  (100%)
+
+Cell Leakage Power     =   1.4059 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      2.4285            0.0000            0.0000            2.4285  (  25.66%)  i
+register           1.0605            1.4967        3.4252e-04            2.5575  (  27.02%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      1.4423            3.0349        1.0634e-03            4.4782  (  47.32%)
+--------------------------------------------------------------------------------------------------
+Total              4.9314 mW         4.5316 mW     1.4059e-03 mW         9.4643 mW
+1

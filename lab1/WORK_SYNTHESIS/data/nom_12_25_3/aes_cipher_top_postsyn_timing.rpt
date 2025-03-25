@@ -1,0 +1,63 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : aes_cipher_top
+Version: V-2023.12-SP1
+Date   : Tue Mar 25 16:30:07 2025
+****************************************
+
+Operating Conditions: nom_1.20V_25C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+  Startpoint: clk_r_REG161_S15
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: clk_r_REG212_S16
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  aes_cipher_top     area_12Kto18K         CORE65LPSVT
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.05       0.05
+  clk_r_REG161_S15/CP (HS65_LS_DFPQX4)                    0.00       0.05 r
+  clk_r_REG161_S15/Q (HS65_LS_DFPQX4)                     0.11       0.16 r
+  U7301/Z (HS65_LS_NOR4ABX2)                              0.24       0.40 r
+  U7300/Z (HS65_LSS_XNOR2X3)                              0.26       0.65 r
+  U6889/Z (HS65_LSS_XOR3X2)                               0.18       0.84 f
+  U6888/Z (HS65_LS_OAI22X1)                               0.20       1.03 r
+  U4666/Z (HS65_LS_IVX2)                                  0.19       1.23 f
+  U4637/Z (HS65_LS_NOR2X2)                                0.19       1.41 r
+  U9494/Z (HS65_LS_NAND3X2)                               0.34       1.75 f
+  U9553/Z (HS65_LS_IVX2)                                  0.42       2.17 r
+  U4313/Z (HS65_LS_CBI4I6X2)                              0.15       2.32 f
+  U4308/Z (HS65_LS_NOR4ABX2)                              0.10       2.42 f
+  U4037/Z (HS65_LS_NOR4ABX2)                              0.08       2.50 f
+  U4032/Z (HS65_LS_NAND4ABX3)                             0.05       2.56 r
+  U4031/Z (HS65_LS_NOR3X1)                                0.05       2.60 f
+  U4028/Z (HS65_LS_NAND4ABX3)                             0.06       2.66 r
+  U2096/Z (HS65_LSS_XOR2X3)                               0.09       2.75 f
+  clk_r_REG212_S16/D (HS65_LSS_DFPQX18)                   0.00       2.75 f
+  data arrival time                                                  2.75
+
+  clock clk (rise edge)                                   3.00       3.00
+  clock network delay (ideal)                             0.05       3.05
+  clock uncertainty                                      -0.05       3.00
+  clk_r_REG212_S16/CP (HS65_LSS_DFPQX18)                  0.00       3.00 r
+  library setup time                                     -0.06       2.94
+  data required time                                                 2.94
+  --------------------------------------------------------------------------
+  data required time                                                 2.94
+  data arrival time                                                 -2.75
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.19
+
+
+1

@@ -1,0 +1,65 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : aes_cipher_top
+Version: V-2023.12-SP1
+Date   : Tue Mar 25 17:12:28 2025
+****************************************
+
+Operating Conditions: bc_1.30V_m40C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+  Startpoint: clk_r_REG321_S9
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: clk_r_REG239_S9
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  aes_cipher_top     area_12Kto18K         CORE65LPSVT
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.05       0.05
+  clk_r_REG321_S9/CP (HS65_LS_DFPQX4)      0.00       0.05 r
+  clk_r_REG321_S9/Q (HS65_LS_DFPQX4)       0.10       0.15 f
+  U1900/Z (HS65_LSS_XOR3X2)                0.08       0.24 f
+  U1899/Z (HS65_LSS_XOR3X2)                0.07       0.31 f
+  U1898/Z (HS65_LS_OAI22X1)                0.17       0.48 r
+  U3695/Z (HS65_LS_IVX2)                   0.15       0.63 f
+  U8904/Z (HS65_LS_NAND3X2)                0.17       0.80 r
+  U8582/Z (HS65_LS_IVX2)                   0.19       0.99 f
+  U3565/Z (HS65_LS_NOR2X2)                 0.14       1.12 r
+  U3564/Z (HS65_LS_AOI12X2)                0.05       1.17 f
+  U3560/Z (HS65_LS_NOR3X1)                 0.05       1.23 r
+  U3557/Z (HS65_LS_NAND3X2)                0.06       1.29 f
+  U3556/Z (HS65_LS_AOI12X2)                0.06       1.35 r
+  U3555/Z (HS65_LS_OAI212X3)               0.05       1.40 f
+  U3518/Z (HS65_LS_NAND4ABX3)              0.08       1.48 f
+  U3321/Z (HS65_LS_NOR4ABX2)               0.05       1.53 r
+  U3298/Z (HS65_LS_NOR4ABX2)               0.14       1.67 r
+  U2120/Z (HS65_LSS_XNOR2X3)               0.11       1.78 r
+  U2119/Z (HS65_LSS_XOR3X2)                0.11       1.88 f
+  clk_r_REG239_S9/D (HS65_LS_DFPQX4)       0.00       1.88 f
+  data arrival time                                   1.88
+
+  clock clk (rise edge)                    4.00       4.00
+  clock network delay (ideal)              0.05       4.05
+  clock uncertainty                       -0.05       4.00
+  clk_r_REG239_S9/CP (HS65_LS_DFPQX4)      0.00       4.00 r
+  library setup time                      -0.04       3.96
+  data required time                                  3.96
+  -----------------------------------------------------------
+  data required time                                  3.96
+  data arrival time                                  -1.88
+  -----------------------------------------------------------
+  slack (MET)                                         2.07
+
+
+1
