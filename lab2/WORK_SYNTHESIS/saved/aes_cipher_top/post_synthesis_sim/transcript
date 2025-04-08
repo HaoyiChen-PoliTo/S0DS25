@@ -1,0 +1,84 @@
+# vsim -c -t ns -L worklib work.test -voptargs="+acc=np+aes_cipher_top" 
+# Start time: 17:09:27 on Apr 08,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim
+# //  Version 2023.4 linux Oct  9 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.test(fast)
+# Loading work.aes_cipher_top(fast)
+# Loading worklib.HS65_LS_NOR3X1(fast)
+# Loading worklib.HS65_LS_OAI13X1(fast)
+# Loading worklib.HS65_LS_NAND2X2(fast)
+# Loading worklib.HS65_LS_NOR2X2(fast)
+# Loading worklib.HS65_LS_OAI32X2(fast)
+# Loading worklib.HS65_LS_IVX2(fast)
+# Loading worklib.HS65_LS_OA12X4(fast)
+# Loading worklib.HS65_LS_NAND4ABX3(fast)
+# Loading worklib.HS65_LS_OAI311X2(fast)
+# Loading worklib.HS65_LS_OAI12X2(fast)
+# Loading worklib.HS65_LSS_XOR2X3(fast)
+# Loading worklib.HS65_LS_NAND2AX4(fast)
+# Loading worklib.HS65_LS_AO22X4(fast)
+# Loading worklib.HS65_LS_OAI22X1(fast)
+# Loading worklib.HS65_LSS_XNOR2X3(fast)
+# Loading worklib.HS65_LSS_XNOR3X2(fast)
+# Loading worklib.HS65_LS_NOR4ABX2(fast)
+# Loading worklib.HS65_LS_OAI212X3(fast)
+# Loading worklib.HS65_LS_AOI12X2(fast)
+# Loading worklib.HS65_LS_AND2X4(fast)
+# Loading worklib.HS65_LS_AOI212X2(fast)
+# Loading worklib.HS65_LS_NOR3AX2(fast)
+# Loading worklib.HS65_LS_AOI222X2(fast)
+# Loading worklib.HS65_LS_OAI222X2(fast)
+# Loading worklib.HS65_LS_CBI4I6X2(fast)
+# Loading worklib.HS65_LS_AO12X4(fast)
+# Loading worklib.HS65_LS_MX41X4(fast)
+# Loading worklib.HS65_LS_CBI4I1X3(fast)
+# Loading worklib.HS65_LS_CB4I6X4(fast)
+# Loading worklib.HS65_LS_OR2X4(fast)
+# Loading worklib.HS65_LS_NAND3AX3(fast)
+# Loading worklib.HS65_LS_OR3X4(fast)
+# Loading worklib.HS65_LS_AOI22X1(fast)
+# Loading worklib.HS65_LS_OAI112X1(fast)
+# Loading worklib.HS65_LS_AOI13X2(fast)
+# Loading worklib.HS65_LS_NAND3X2(fast)
+# Loading worklib.HS65_LSS_XOR3X2(fast)
+# Loading worklib.HS65_LS_AO222X4(fast)
+# Loading worklib.HS65_LS_AOI112X1(fast)
+# Loading worklib.HS65_LS_OA212X4(fast)
+# Loading worklib.HS65_LS_AO212X4(fast)
+# Loading worklib.HS65_LS_AND3X4(fast)
+# Loading worklib.HS65_LS_CB4I1X4(fast)
+# Loading worklib.HS65_LS_OA31X4(fast)
+# Loading worklib.HS65_LS_AO112X4(fast)
+# Loading worklib.HS65_LS_OA22X4(fast)
+# Loading worklib.HS65_LS_OA112X4(fast)
+# Loading worklib.HS65_LS_OA222X4(fast)
+# Loading worklib.HS65_LS_AO31X4(fast)
+# Loading worklib.HS65_LS_NOR2AX3(fast)
+# Loading worklib.HS65_LS_NAND4X4(fast)
+# Loading worklib.HS65_LS_NOR4X4(fast)
+# Loading worklib.HS65_LS_OR4X4(fast)
+# Loading worklib.HS65_LS_IVX4(fast)
+# Loading worklib.HS65_LS_BFX4(fast)
+# Loading worklib.HS65_LS_BFX2(fast)
+# Loading worklib.HS65_LS_NAND3X3(fast)
+# Loading worklib.HS65_LS_NAND2X4(fast)
+# Loading worklib.HS65_LS_NOR4ABX4(fast)
+# Loading worklib.HS65_LS_DFPQX4(fast)
+# Loading worklib.HS65_LSS_DFPQX18(fast)
+# Loading worklib.HS65_LS_OAI22X3(fast)
+# Loading worklib.HS65_LS_IVX13(fast)
+# End time: 17:10:53 on Apr 08,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0

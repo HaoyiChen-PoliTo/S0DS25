@@ -1,0 +1,392 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+691293
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Tue Apr 08 00:57:14 CEST 2025 (1744066634)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: worksynthesis
+arch: x86_64
+release_version: 5.15.0-131-generic
+
+SECTION_IPC_INFO
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems     
+
+
+SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 128072
+max locked memory       (kbytes, -l) 4107568
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1048576
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 16384
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 128072
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 1048576
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 4194304
+_SC_CHILD_MAX= 128072
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/space/tools/synopsys/prime/V-2023.12-SP1/linux64/syn/bin/pt_shell_exec -root_path /space/tools/synopsys/prime/V-2023.12-SP1 -shell Timing -f ./scripts/pt_analysis.tcl
+
+SECTION_CPUINFO
+total_core: 16
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+model_name:  AMD EPYC Processor
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 virt_ssbd arat
+cpu_family: 23
+core_frequency_mhz: 2195
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 512
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+CentOS Linux release 7.9.2009 (Core)
+
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/compact_unevictable_allowed:1
+/proc/sys/vm/compaction_proactiveness:20
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:20
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/dirtytime_expire_seconds:43200
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32	0	0
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:65536
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/numa_stat:1
+/proc/sys/vm/numa_zonelist_order:Node
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/page_lock_unfairness:5
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_high_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:60
+/proc/sys/vm/unprivileged_userfaultfd:0
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/watermark_boost_factor:15000
+/proc/sys/vm/watermark_scale_factor:10
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+swap_partition: /dev/sda5
+size_gb: 3
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1744066634031
+
+SECTION_MPSTAT
+total_core: 16
+
+CPU     %user   %kernel %wait   %idle   
+all   0.448103 0.028934 0.016742 99.506226
+0     0.453581 0.027502 0.014762 99.504150
+1     0.408418 0.041724 0.031263 99.518593
+2     0.975854 0.031967 0.013713 98.978462
+3     0.318888 0.029453 0.033685 99.617973
+4     0.574958 0.031136 0.015698 99.378204
+5     0.565306 0.028122 0.014074 99.392494
+6     0.527265 0.027668 0.017876 99.427193
+7     0.460058 0.025920 0.013404 99.500618
+8     0.569954 0.027151 0.012692 99.390213
+9     0.499045 0.025016 0.014955 99.460983
+10     0.201282 0.032505 0.017657 99.748558
+11     0.395418 0.027743 0.012031 99.564804
+12     0.253087 0.029130 0.013908 99.703880
+13     0.261191 0.026340 0.013130 99.699341
+14     0.279740 0.025530 0.011832 99.682899
+15     0.425446 0.026035 0.017211 99.531303
+SECTION_LOADAVG
+0.00 0.00 0.04 1/293 692661
+
+SECTION_PID_STATUS
+name: pt_shell_exec
+state: 1
+vmsize: 4269536
+vmrss: 1087196
+vmdata: 2957480
+vmstk: 136
+vmexe: 448124
+vmlib: 359420
+threads: 22
+
+SECTION_PROCESS_CPU_UTIL
+pid: 691293
+cpu_total_time: 2550619681
+cpu_used_time: 2865
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 32860568
+memfree: 18249564
+cached: 11864024
+swapcached: 1068
+active: 6423424
+swaptotal: 4192252
+swapfree: 4178304
+
+SECTION_SMAPS
+shared_kb: 12
+private_kb: 1087276
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        35G  7G  26G    22
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          2359296  183008 2176288   4294966207
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        255G  124G  119G    51
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          17039360  1077470 15961890   4294965915
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        35G  7G  26G    22
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          2359296  183008 2176288   4294966207
+
+SECTION_SWAP_RATE
+blk_read: 2820328
+blk_wrtn: 10301064
+swap_in_rate: 
+swap_out_rate: 
+swap_in_rate: 
+swap_out_rate: 
+
+SECTION_FD_SIZE
+files: 35
+total_size: 1109643
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 1
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+    lo:         0        0        0        0
+
+SECTION_NFSSTAT
+Error: Could not collect the data.
+
+SECTION_THREAD_CPU_UTIL
+691293 : 691293 (pt_shell_exec) R 691261 691227 689826 0 -1 4194560 135823 5654 153 83 991 89 4 32 20 0 22 0 159328952 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 0 2097152 1267367679 0 0 0 17 3 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691313 : 691313 (jemalloc_bg_thd) S 691261 691227 689826 0 -1 1077936192 0 5654 0 83 0 0 4 32 20 0 22 0 159329012 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 2147221247 2097152 1267367679 1 0 0 -1 12 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691314 : 691314 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 3 5654 0 83 0 0 4 32 20 0 22 0 159329033 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 0 2097152 1267367679 1 0 0 -1 13 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691351 : 691351 (pt_shell_exec) S 691261 691227 689826 0 -1 4194368 3 5654 0 83 0 0 4 32 20 0 22 0 159329299 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 2147221247 2097152 1267367679 1 0 0 -1 12 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691352 : 691352 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 5 5654 0 83 0 1 4 32 20 0 22 0 159329309 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 11 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691353 : 691353 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 1 5654 0 83 0 0 4 32 20 0 22 0 159329309 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 15 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691354 : 691354 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 1 5654 0 83 0 0 4 32 20 0 22 0 159329309 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 3 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691355 : 691355 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 1 5654 0 83 0 0 4 32 20 0 22 0 159329309 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 5 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691356 : 691356 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 0 5654 0 83 0 0 4 32 20 0 22 0 159329309 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 7 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691357 : 691357 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 0 5654 0 83 0 0 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 8 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691358 : 691358 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 8 5654 0 83 0 0 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 14 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691359 : 691359 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 8 5654 0 83 0 0 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 9 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691360 : 691360 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 33 5654 0 83 0 0 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 0 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691361 : 691361 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 713 5654 0 83 61 0 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 13 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691362 : 691362 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 2538 5654 22 83 254 0 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 1 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691363 : 691363 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 37332 5654 17 83 361 15 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 2 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691364 : 691364 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 1184 5654 16 83 305 1 4 32 20 0 22 0 159329310 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 4 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691365 : 691365 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 9 5654 0 83 0 0 4 32 20 0 22 0 159329314 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 6 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691375 : 691375 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 0 5654 0 83 0 0 4 32 20 0 22 0 159329338 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 4 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691376 : 691376 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 0 5654 0 83 0 0 4 32 20 0 22 0 159329338 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 5 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691377 : 691377 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 0 5654 0 83 0 0 4 32 20 0 22 0 159329338 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 8 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+691378 : 691378 (pt_shell_exec) S 691261 691227 689826 0 -1 1077936192 0 5654 0 83 0 0 4 32 20 0 22 0 159329338 4372004864 271799 18446744073709551615 101801984 560677520 140721065948640 0 0 0 8192 2097152 1267367679 1 0 0 -1 9 0 0 0 0 0 562035328 584624464 1382952960 140721065953710 140721065953878 140721065953878 140721065959344 0
+
+CRTE_PERIODIC_END 1 1744066634031
